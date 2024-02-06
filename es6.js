@@ -9,3 +9,9 @@ ${student.age}
 ${numbers.length}
 `;
 console.log(about);
+
+// arrow function
+// spreed operator
+
+const newNumbers = [...numbers, 100, 90, 80];
+console.log(newNumbers);
